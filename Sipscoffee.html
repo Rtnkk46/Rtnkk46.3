@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sips-Coffee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Sipscoffee1.css"> 
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <div class="container">
+        <a href="#" class="navbar-brand">
+            <img src="logo.jpeg" alt="Sips-Coffee Logo" width="80" height="80">
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" style="color: white;">หน้าแรก</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">สินค้า</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a href="#coffeebean" class="dropdown-item">เมล็ดกาแฟ</a></li>
+                        <li><a href="#brewedcoffee" class="dropdown-item">กาแฟสำเร็จรูป</a></li>
+                        <li><a href="#coffeegrounds" class="dropdown-item">กากกาแฟ</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a href="#coffeecub" class="dropdown-item">แก้วกาแฟ</a></li>
+                        <li><a href="#coffeegrinder" class="dropdown-item">เครื่องบดมือกาแฟ</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#about" class="nav-link" style="color: white;">เกี่ยวกับเรา</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ผลประโยชน์สินค้าของ Sipscoffee</h1>
+                            <p>ประสบการณ์รสชาติที่เป็นเอกลักษณ์: กาแฟที่มีลักษณะหอมหวานและนวลน่าจะมีความพิเศษในการรสชาติที่ทำให้ผู้บริโภคต้องการกลับมาอีกครั้ง การตั้งชื่อเป็น "Sips-Coffee" อาจแสดงถึงประสบการณ์การดื่มกาแฟที่น่าสนใจและเป็นที่จดจำของลูกค้าได้ง่าย</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 active ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ผลประโยชน์สินค้าของ Sipscoffee</h1>
+                            <p>การสร้างความเป็นมาตรฐาน: หาก "Sips-Coffee" มีคุณสมบัติเด่นเช่นนี้ อาจช่วยให้กาแฟเป็นเอกลักษณ์ของกาแฟที่อร่อยและน่าสนใจในตลาด ทำให้บริษัทหรือกาแฟนี้ได้รับความนิยมและความเชื่อมั่นจากลูกค้า</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ผลประโยชน์สินค้าของ Sipscoffee</h1>
+                            <p>การสร้างความทันสมัย: หาก "Sips-Coffee" สามารถทำให้คุณสมบัติเช่นนี้เป็นเอกลักษณ์ของกาแฟที่ต้องการในยุคปัจจุบัน อาจช่วยให้กาแฟนี้ก้าวไปข้างหน้าในการแข่งขันในตลาดกาแฟที่มีการเปลี่ยนแปลงอย่างรวดเร็ว</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                     <span class="carousel-control-prev-icon"></span>
+                 </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+ 
+    <section id="about" class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="DesignerName.jpeg" class="img-fluid mb-4" style="width: 100%; border-radius: 10px;">
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <h2 class="mb-4">เกี่ยวกับเรา</h2>
+                    </div>
+                    <h4 class="text-center">Sips-coffee คือแบรนด์กาแฟที่มีความคลาสสิกและยึดมั่นในคุณภาพของกาแฟแบบหนุ่มนวล โดยเราเชื่อว่าการเตรียมชงกาแฟที่ดีต้องเริ่มต้นด้วยเมล็ดกาแฟที่มีคุณภาพสูง ที่ได้รับการคัดสรรและอบแห้งอย่างพิถีพิถันเราใส่ใจทุกรายละเอียดของกระบวนการผลิต เพื่อให้ได้กาแฟที่มีรสชาติและกลิ่นที่เป็นเอกลักษณ์ทั้งนี้เพื่อให้การรับประกันความถูกต้องและความสดใหม่ของกาแฟที่เรานำเข้า ทุกเมล็ดกาแฟจะถูกตรวจสอบและทดสอบอย่างเคร่งครัด ก่อนที่จะถูกบดเป็นกาแฟสำเร็จรูปที่ต้องการ Sips-coffee มีความมุ่งหวังที่จะเป็นเส้นทางสู่ความพอเพียงและความสุขของชีวิตในทุกๆ แก้วของกาแฟที่เราให้บริการ</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="coffeebean" class="p-5">
+        <div class="container">
+            <h1 class="text-center">เมล็ดกาแฟ (Coffee beans)</h1>
+            <h5 class="text-center">เป็นลูกเมล็ดของต้นกาแฟที่ถูกสกัดออกมาจากผลกาแฟ มีสายพันธุ์อาราบิก้าและรสนิยมต่างกันไป เมล็ดกาแฟมีสีเข้มและมีน้ำหอมหวานเป็นพิเศษ</h5>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="Designer1.jpeg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer2.jpeg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer4.jpeg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="brewedcoffee" class="p-5">
+        <div class="container">
+            <h1 class="text-center">กาแฟสำเร็จรูป (Brewed coffee)</h1>
+            <h5 class="text-center">กาแฟที่ได้รับการปรุงทำโดยการชงด้วยน้ำร้อน มีรสชาติที่หนุ่มนวลและกลิ่นหอมหวานวิธีการชงดังนี้ 1:15 คือ ปริมาณผงกาแฟ 1 ส่วน ต่อ น้ำ 15 ส่วน</h5>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="Designer9.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="de.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer8.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section id="coffeegrounds" class="p-5">
+        <div class="container">
+            <h1 class="text-center">กากกาแฟ (Coffee grounds)</h1>
+            <h5 class="text-center">เป็นเศษส่วนที่เหลือจากการบดเมล็ดกาแฟ สามารถนำมาใช้ในการชงกาแฟใหม่หรือใช้ในการทำเครื่องดื่มอื่นๆ เช่น ช็อกโกแลต</h5>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="Designer9.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="de.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer8.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="coffeecub" class="p-5">
+        <div class="container">
+            <h1 class="text-center">แก้วกาแฟ (Coffee cub)</h1>
+            <h5 class="text-center">จานหรือถ้วยที่ใช้ในการเก็บกาแฟที่ชงไว้ เราสามารถเลือกใช้แก้วกาแฟตามความชอบและการใช้งานต่างๆ เช่น แก้วเอสเพรสโซ, แก้วเซรามิก, หรือแก้วกระจก</h5>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="Designer13.jpeg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer15.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer14.png" class="img-fluid">
+                </div>
+            </div>          
+        </div>
+    </section>
+    
+    <section id="coffeegrinder" class="p-5">
+        <div class="container">
+            <h1 class="text-center">เครื่องมือบดกาแฟ (Coffee grinding)</h1>
+            <h5 class="text-center">เครื่องที่ใช้ในการบดเมล็ดกาแฟ เครื่องมือเหล่านี้มีลูกบดที่สามารถปรับระดับความละเอียดของกาแฟที่ต้องการ มีหลากหลายรูปแบบเช่น เครื่องบดมือ, เครื่องบดไฟฟ้า</h5>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="Designer6.png" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer17.jpeg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="Designer7.png" class="img-fluid">
+                </div>
+            </div>         
+        </div>
+    </section>          
+     
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="low">
+                <div class="col-md-12 text-center mb-4"> 
+                    <a href="SipscoffeeForm.php" class="btn btn-success active">สมัครข้อมูลพนักงาน</a>
+                </div>  
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2024 บริษัท Sips-Coffee จำกัด </p> 
+        <p>64039323 รัชพล บุณยามระ - 64050840 รฐนนท์ เกตุแก้ว</p>   
+    </footer>
+</body>
+</html>
